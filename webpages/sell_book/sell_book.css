@@ -1,0 +1,89 @@
+:root {
+    font-size: 16px;
+    font-family: FiraCode;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+    --border-radius : 5px;
+    --input-height : 35px
+}
+@font-face {
+    font-family: FiraCode;
+    src: url(../../Assests/FiraCode-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 0.25rem;
+}
+.header{
+    text-align: center;
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    color: var(--text-primary);
+}
+.body{
+    font-size: larger;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 30%;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+}
+.submit{
+    margin-top: 40px;
+    text-align: center;
+}
+#name-inp{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    transform: translateX(2rem);
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    border-radius: var(--border-radius);
+    border: none;
+    height: var(--input-height);
+    font-size: large;
+}
+#des-inp{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    transform: translateX(2rem);
+    background-color: var(--bg-primary);
+    color:  var(--text-secondary);
+    border-radius: var(--border-radius);
+    border: none;
+    font-size: large;
+}
+#price-inp{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    transform: translateX(2rem);
+    background-color: var(--bg-primary);
+    color:  var(--text-secondary);
+    border-radius: var(--border-radius);
+    border: none;
+    Height: var(--input-height);
+    font-size: large;
+}
+#submit-btn{
+    background-color: var(--bg-primary);
+    border-radius: 2rem;
+    color: var(--text-primary);
+    border: 2px solid rgb(24, 224, 107);
+    padding: 0.75rem;
+    transition: var(--transition-speed);
+    font-family: FiraCode;
+    font-weight: bolder;
+
+}
+#submit-btn:hover{
+    background-color: rgb(24, 224, 107);
+    border: none;
+    color: var(--bg-secondary);
+}
