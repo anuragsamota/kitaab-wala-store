@@ -25,6 +25,9 @@ body{
     border-radius: var(--border-radius);
     color: var(--text-primary);
 }
+.header-left{
+    text-align: left;
+}
 .body{
     font-size: larger;
     margin-top: 1rem;
