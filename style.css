@@ -229,3 +229,11 @@ main {
 .head-center{
   text-align: center;
 }
+.footer{
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+#contact-us{
+  text-align: left;
+  padding: 4rem;
+}
