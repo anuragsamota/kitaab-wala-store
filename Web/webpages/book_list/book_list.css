@@ -84,6 +84,10 @@ body {
     width: 0px;
     font-weight: bold;
   }
+.search-list{
+  margin-top: 6rem;
+}
+
 
 /*css for list gentration*/
   .list{
