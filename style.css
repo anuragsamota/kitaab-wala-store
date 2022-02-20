@@ -237,3 +237,29 @@ main {
   text-align: left;
   padding: 4rem;
 }
+
+
+.trending{
+  padding: 1rem;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+}
+.card {
+  background-color: var(--bg-secondary);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 0.5rem;
+}
+.price {
+  color: var(--text-secondary);
+  font-size: 22px;
+}
+
+.left-wrapper{
+  padding-left: 5rem;
+  text-align: left;
+}
