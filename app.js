@@ -1,6 +1,40 @@
 const http = require("http");
 const url = require("url");
 const fs = require("fs");
+const express= require('express');
+const mysql = require('mysql');
+const app = express();
+
+
+//Database Connection
+let connection = mysql.createConnection({
+    host:'localhost',
+    user:'root',
+    password:'',
+    database:'customer'
+});
+connection.connect(function(error){
+  if(error){
+    console.log('Error');
+  }else{
+    console.log('connected');
+  }
+});
+
+app.get('/',function(req,resp){
+  connection.query("select * from  customer",function(error,rows,fields){
+    if(error){
+      console.log('Error');
+    }else{
+      console.log('Successful');
+      console.log(rows);
+    }
+  })
+});
+app.listen(8080);
+
+
+/*Front end connection*/
 
 //npm i mime-types
 const lookup = require("mime-types").lookup;

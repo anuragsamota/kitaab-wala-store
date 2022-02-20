@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/anuragsamota/kitaab-wala-store#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "cjs": "^0.0.11",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
   }
 }
