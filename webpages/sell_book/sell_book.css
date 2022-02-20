@@ -39,15 +39,12 @@ body{
     border-radius: var(--border-radius);
     color: var(--text-primary);
 }
-.header-left{
-    text-align: left;
-}
 .body{
     font-size: larger;
     margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 30%;
+    padding-left: 25%;
     border-radius: var(--border-radius);
     background-color: var(--bg-secondary);
     color: var(--text-primary);
