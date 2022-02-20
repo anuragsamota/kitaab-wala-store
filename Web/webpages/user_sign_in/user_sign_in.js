@@ -4,6 +4,5 @@ const login_btn = document.getElementById("login-btn")
 
 
 login_btn.onclick = ()=>{
-    console.log('click',usr_name_inp.value,psw_inp.value)
     localStorage.setItem('user-login',usr_name_inp.value)
 }

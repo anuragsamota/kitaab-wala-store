@@ -1,13 +1,13 @@
 const http = require("http");
 const url = require("url");
 const fs = require("fs");
-const express= require('express');
+/*const express= require('express');
 const mysql = require('mysql');
-const app = express();
+const app = express();*/
 
 
 //Database Connection
-let connection = mysql.createConnection({
+/*let connection = mysql.createConnection({
     host:'localhost',
     user:'root',
     password:'',
@@ -31,7 +31,7 @@ app.get('/',function(req,resp){
     }
   })
 });
-app.listen(8080);
+app.listen(8080);*/
 
 
 /*Front end connection*/
