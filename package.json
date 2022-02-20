@@ -1,0 +1,22 @@
+{
+  "name": "kitaab-wala-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuragsamota/kitaab-wala-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuragsamota/kitaab-wala-store/issues"
+  },
+  "homepage": "https://github.com/anuragsamota/kitaab-wala-store#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
